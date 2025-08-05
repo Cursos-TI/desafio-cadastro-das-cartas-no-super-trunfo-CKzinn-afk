@@ -1,22 +1,109 @@
 #include <stdio.h>
 
-// Desafio Super Trunfo - Países
-// Tema 1 - Cadastro das Cartas
-// Este código inicial serve como base para o desenvolvimento do sistema de cadastro de cartas de cidades.
-// Siga os comentários para implementar cada parte do desafio.
-//Teste larissa
+int main(){
+//Carta 001
+char Estado001[2];
+char Codigo001[3];
+char Nome001[20];
+int População001;
+float área001;
+float PiB001;
+int PT001;
 
-int main() {
-    // Sugestão: Defina variáveis separadas para cada atributo da cidade.
-    // Exemplos de atributos: código da cidade, nome, população, área, PIB, número de pontos turísticos.
-    
-    // Cadastro das Cartas:
-    // Sugestão: Utilize a função scanf para capturar as entradas do usuário para cada atributo.
-    // Solicite ao usuário que insira as informações de cada cidade, como o código, nome, população, área, etc.
-    
-    // Exibição dos Dados das Cartas:
-    // Sugestão: Utilize a função printf para exibir as informações das cartas cadastradas de forma clara e organizada.
-    // Exiba os valores inseridos para cada atributo da cidade, um por linha.
+//Carta 002
+char Estado002[2];
+char Codigo002[3];
+char Nome002[20];
+int População002;
+float área002;
+float PiB002;
+int PT002;
+
+//Cadastro da Carta 001
+
+printf("Olá, seja bem vindo ao jogo de Super Trunfo!\nVamos começar cadastrando sua primeira cidade?\n");
+
+//Estado 001
+printf("Qual o estado da sua carta?\n");
+scanf("%s", &Estado001);
+
+//Codigo da Carta 001
+printf("Código da sua carta:\n");
+scanf("%s", &Codigo001);
+
+//Nome da Cidade 001
+printf("Nome da cidade:\n");
+scanf("%s", &Nome001);
+
+//População 001
+printf("Quantos habitantes?\n");
+scanf("%f", &População001);
+
+//área 001
+printf("Qual a área total?\n");
+scanf("%f", &área001);
+
+//PiB 001
+printf("Qual o PiB?\n");
+scanf("%f", &PiB001);
+
+//Pontos Turisticos 001
+printf("Quantos pontos turisticos exitem?\n");
+scanf("%d", &PT001);
+
+
+//Cadastro da Carta 002
+
+printf("Parabéns! você concluiu o cadastro da sua primeira carta\nPronto para ir para a próxima?\n");
+
+//Estado 002
+printf("Qual o estado da sua segunda carta?\n");
+scanf("%s", &Estado002);
+
+//Codigo da Carta 002
+printf("Código da sua carta:\n");
+scanf("%s", &Codigo002);
+
+//Nome da Cidade 002
+printf("Nome da cidade:\n");
+scanf("%s", &Nome002);
+
+//População 002
+printf("Quantos habitantes?\n");
+scanf("%f", &População002);
+
+//área 002
+printf("Qual a área total?\n");
+scanf("%f", &área002);
+
+//PiB 002
+printf("Qual o PiB?\n");
+scanf("%f", &PiB002);
+
+//Pontos Turisticos 002
+printf("Quantos pontos turisticos exitem?\n");
+scanf("%d", &PT002);
+
+//Descrição da carta 001
+printf("Carta 001\n:");
+printf("Estado: %s\n", Estado001);
+printf("Código: %s\n", Codigo001);
+printf("Nome da Cidade: %s\n", Nome001);
+printf("População: %d\n", População001);
+printf("Área: %f km³\n", área001);
+printf("PiB: %f Reais\n", PiB001);
+printf("Número de pontos turísticos: %d\n", PT001);
+
+//Descrição da carta 002
+printf("Carta 002\n:");
+printf("Estado: %s\n", Estado002);
+printf("Código: %s\n", Codigo002);
+printf("Nome da Cidade: %s\n", Nome002);
+printf("População: %d\n", População002);
+printf("Área: %f km³\n", área002);
+printf("PiB: %f Reais\n", PiB002);
+printf("Número de pontos turísticos: %d\n", PT002);
+
 
     return 0;
 }
